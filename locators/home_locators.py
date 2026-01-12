@@ -1,0 +1,11 @@
+class HomeLocators:
+    LOGIN_CONTAINER = "//div[@data-id='auth-container']"
+    CLOSE_BUTTON = "//span[@class='logSprite icClose']"
+    CLOSE_POPUP = "//div[@data-id='dweb_pip_id']/p"
+    FROM_LABEL = "//label[@for='fromCity']"
+    FROM_INPUT = "//input[@placeholder='From']"
+    FROM_CITY = "(//span[@class='revampedCityName' and contains(text(),'New Delhi, India')])[1]"
+    TO_LABEL = "//label[@for='toCity']"
+    TO_INPUT = "//input[@placeholder='To']"
+    TO_CITY = "(//span[@class='revampedCityName' and contains(text(),'Mumbai, India')])[1]"
+    SEARCH_BUTTON = "//a[text()='Search']"

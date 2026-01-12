@@ -1,0 +1,3 @@
+base_url: "https://www.goibibo.com"
+browser: "chromium"
+headless: false
